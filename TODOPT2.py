@@ -8,7 +8,7 @@ list = []
 # Welcomes the user to the automated list
 def intro(): 
     print ("Getting hungry? It's time to go to the store!")
-    print(" MENU: 1. Add a item\n 2. View current list\n 3. Mark as completed\n 4. Remove item\n 5. Exit\n 6. 7. 8. ")
+    print(" MENU: 1. Add a item\n 2. View current list\n 3. Mark as completed\n 4. Remove item\n 5. Exit\n 6. Clear the list\n 7. Sort list alphabetically\n 8. Returns number of items in your list\n ")
 # Presents user with options via a menu
 def menu():
     option = int(input("Please select one of the 5 options in the MENU (1-5): "))
